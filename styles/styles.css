@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../assets/starterscreen.png');
+    background-size: cover;
+    align-items: center;
+    height: 700px;
+    width: 375px;
+    border: 4px solid black;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.container-1 img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 70pt;
+    font-weight: 200;
+    transform: rotate(10deg);
+    margin: 200px 0px 270px 0px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    margin: 20px 0px 40px 0px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+button {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 32px;
+    width: 262px;
+    height: 58px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    margin-top: 34px;
+    box-shadow: 5px 5px 0px #285ADC;
+}
+button:hover {
+    cursor: pointer;
+}
+
+#sign-up {
+    background-color: #6B95FF;
+    color: white;
+}
+#log-in {
+    background-color: #B5C2E5;
+}
